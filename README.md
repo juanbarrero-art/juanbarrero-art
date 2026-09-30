@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/juanbarrero-art/juanbarrero-art/main/assets/banner.svg?v=3" alt="Banner con medusa ASCII de colores y terminal, de Juan Barrero" width="100%" />
+  <img src="https://raw.githubusercontent.com/juanbarrero-art/juanbarrero-art/main/assets/banner.gif" alt="Banner animado cyberpunk: medusa y KANON UFO" width="420" />
 </div>
 
 <p align="center">
