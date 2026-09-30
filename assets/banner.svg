@@ -1,63 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Banner: Juan Barrero, ciberseguridad">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Banner estilo terminal hacker de Juan Barrero">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="55%" stop-color="#111033"/>
-      <stop offset="100%" stop-color="#1A0B2E"/>
+      <stop offset="0%" stop-color="#04060b"/>
+      <stop offset="55%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#120a24"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3B82F6"/>
-      <stop offset="50%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#8B5CF6"/>
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
     <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#93C5FD"/>
-      <stop offset="50%" stop-color="#A78BFA"/>
-      <stop offset="100%" stop-color="#C4B5FD"/>
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="46"/>
+      <feGaussianBlur stdDeviation="52"/>
     </filter>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#60A5FA" stroke-opacity="0.07" stroke-width="1"/>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="340" fill="url(#bg)"/>
-  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="1090" cy="40" r="150" fill="#3b82f6" fill-opacity="0.20" filter="url(#soft)"/>
+  <circle cx="110" cy="340" r="150" fill="#8b5cf6" fill-opacity="0.20" filter="url(#soft)"/>
 
-  <circle cx="1020" cy="60" r="150" fill="#3B82F6" fill-opacity="0.30" filter="url(#soft)"/>
-  <circle cx="240" cy="300" r="150" fill="#8B5CF6" fill-opacity="0.30" filter="url(#soft)"/>
-
-  <rect x="70" y="60" width="500" height="220" rx="14" fill="#0D1117" fill-opacity="0.55" stroke="#60A5FA" stroke-opacity="0.25"/>
-  <circle cx="96" cy="86" r="6" fill="#F87171"/>
-  <circle cx="118" cy="86" r="6" fill="#FBBF24"/>
-  <circle cx="140" cy="86" r="6" fill="#34D399"/>
-  <text x="96" y="140" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#7DD3FC">juano@cyber:~$</text>
-  <text x="270" y="140" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#E5E7EB">whoami</text>
-  <text x="96" y="178" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#A78BFA">&#62; Juan Barrero</text>
-  <text x="96" y="214" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#7DD3FC">juano@cyber:~$</text>
-  <text x="270" y="214" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#E5E7EB">cat enfoque.txt</text>
-  <text x="96" y="252" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#94A3B8">Ciberseguridad &#183; Cybersecurity</text>
-
-  <g filter="url(#glow)">
-    <text x="620" y="150" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="66" font-weight="700" fill="url(#title)">Juan Barrero</text>
+  <!-- Lluvia de codigo (tokens en baja opacidad) -->
+  <g font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="14" fill="#22d3ee" fill-opacity="0.14">
+    <text x="18" y="40">0110</text>
+    <text x="18" y="96">1010</text>
+    <text x="18" y="150">0xA3</text>
+    <text x="18" y="206">1101</text>
+    <text x="18" y="262">0011</text>
+    <text x="18" y="318">x86</text>
+    <text x="1120" y="70">0xF1</text>
+    <text x="1130" y="126">1010</text>
+    <text x="1122" y="182">PE</text>
+    <text x="1128" y="238">0110</text>
+    <text x="1120" y="294">SIG</text>
+    <text x="600" y="30">malloc()</text>
+    <text x="900" y="344">ntdll.dll</text>
+    <text x="470" y="344">bp 0x7fff</text>
   </g>
-  <text x="622" y="188" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="66" font-weight="700" fill="#8B5CF6" fill-opacity="0.28">Juan Barrero</text>
 
-  <text x="622" y="230" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="22" fill="#C7D2FE">Aprendiendo a romper para defender</text>
-  <text x="622" y="262" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="17" fill="#8B93B8">Learning to break so I can defend</text>
+  <!-- Ventana de terminal -->
+  <g>
+    <rect x="60" y="72" width="520" height="216" rx="12" fill="#05070d" fill-opacity="0.92" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <rect x="60" y="72" width="520" height="34" rx="12" fill="#0b1220"/>
+    <rect x="60" y="94" width="520" height="12" fill="#0b1220"/>
+    <circle cx="86" cy="89" r="6" fill="#f87171"/>
+    <circle cx="108" cy="89" r="6" fill="#fbbf24"/>
+    <circle cx="130" cy="89" r="6" fill="#34d399"/>
+    <text x="150" y="94" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="12" fill="#64748b">juan@cyber: ~/profile</text>
 
-  <g transform="translate(1040,120)" opacity="0.95">
-    <path d="M0 0 L72 0 L72 46 C72 84 36 112 36 112 C36 112 0 84 0 46 Z" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linejoin="round"/>
-    <circle cx="36" cy="50" r="11" fill="url(#accent)"/>
-    <rect x="31" y="58" width="10" height="20" rx="4" fill="url(#accent)"/>
+    <g font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="15">
+      <text x="84" y="136" fill="#22c55e">juan@cyber:~$</text>
+      <text x="222" y="136" fill="#e5e7eb">./recon.sh --target me</text>
+      <text x="84" y="162" fill="#94a3b8">[+] role   : Cybersecurity Student</text>
+      <text x="84" y="186" fill="#94a3b8">[+] focus  : </text>
+      <text x="168" y="186" fill="#a78bfa">Malware Analysis</text>
+      <text x="308" y="186" fill="#94a3b8"> &amp; </text>
+      <text x="330" y="186" fill="#a78bfa">Windows Internals</text>
+      <text x="84" y="210" fill="#94a3b8">[+] team   : </text>
+      <text x="168" y="210" fill="#7dd3fc">Blue Team</text>
+      <text x="270" y="210" fill="#94a3b8">(base </text>
+      <text x="330" y="210" fill="#8b5cf6">Red Team</text>
+      <text x="410" y="210" fill="#94a3b8">)</text>
+      <text x="84" y="234" fill="#94a3b8">[+] os     : Lubuntu</text>
+      <text x="84" y="258" fill="#22c55e">juan@cyber:~$</text>
+      <text x="222" y="258" fill="#7dd3fc">_</text>
+    </g>
+  </g>
+
+  <!-- Nombre con glitch + glow -->
+  <g filter="url(#glow)">
+    <text x="640" y="180" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="62" font-weight="700" fill="url(#title)">Juan Barrero</text>
+  </g>
+  <text x="644" y="184" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="62" font-weight="700" fill="#22d3ee" fill-opacity="0.20">Juan Barrero</text>
+  <text x="637" y="177" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="62" font-weight="700" fill="#8b5cf6" fill-opacity="0.22">Juan Barrero</text>
+
+  <text x="642" y="222" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="20" fill="#c7d2fe">Aprendiendo a romper para defender</text>
+  <text x="642" y="252" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="16" fill="#8b93b8">Learning to break so I can defend</text>
+
+  <g font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="13" fill="#22c55e">
+    <text x="642" y="292">[ root&#64;juanbarrero ]</text>
+    <text x="798" y="292" fill="#8b5cf6">[ access: granted ]</text>
+  </g>
+
+  <!-- Icono escudo -->
+  <g transform="translate(1080,230)" opacity="0.95">
+    <path d="M0 0 L58 0 L58 38 C58 68 29 92 29 92 C29 92 0 68 0 38 Z" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M20 46 l6 6 13 -14" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
