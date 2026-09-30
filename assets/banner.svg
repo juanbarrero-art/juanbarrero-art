@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Banner: Juan Barrero, ciberseguridad">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="55%" stop-color="#111033"/>
+      <stop offset="100%" stop-color="#1A0B2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#60A5FA" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+
+  <circle cx="1020" cy="60" r="150" fill="#3B82F6" fill-opacity="0.30" filter="url(#soft)"/>
+  <circle cx="240" cy="300" r="150" fill="#8B5CF6" fill-opacity="0.30" filter="url(#soft)"/>
+
+  <rect x="70" y="60" width="500" height="220" rx="14" fill="#0D1117" fill-opacity="0.55" stroke="#60A5FA" stroke-opacity="0.25"/>
+  <circle cx="96" cy="86" r="6" fill="#F87171"/>
+  <circle cx="118" cy="86" r="6" fill="#FBBF24"/>
+  <circle cx="140" cy="86" r="6" fill="#34D399"/>
+  <text x="96" y="140" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#7DD3FC">juano@cyber:~$</text>
+  <text x="270" y="140" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#E5E7EB">whoami</text>
+  <text x="96" y="178" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#A78BFA">&#62; Juan Barrero</text>
+  <text x="96" y="214" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#7DD3FC">juano@cyber:~$</text>
+  <text x="270" y="214" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#E5E7EB">cat enfoque.txt</text>
+  <text x="96" y="252" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="19" fill="#94A3B8">Ciberseguridad &#183; Cybersecurity</text>
+
+  <g filter="url(#glow)">
+    <text x="620" y="150" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="66" font-weight="700" fill="url(#title)">Juan Barrero</text>
+  </g>
+  <text x="622" y="188" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="66" font-weight="700" fill="#8B5CF6" fill-opacity="0.28">Juan Barrero</text>
+
+  <text x="622" y="230" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="22" fill="#C7D2FE">Aprendiendo a romper para defender</text>
+  <text x="622" y="262" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" font-size="17" fill="#8B93B8">Learning to break so I can defend</text>
+
+  <g transform="translate(1040,120)" opacity="0.95">
+    <path d="M0 0 L72 0 L72 46 C72 84 36 112 36 112 C36 112 0 84 0 46 Z" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="36" cy="50" r="11" fill="url(#accent)"/>
+    <rect x="31" y="58" width="10" height="20" rx="4" fill="url(#accent)"/>
+  </g>
+</svg>
