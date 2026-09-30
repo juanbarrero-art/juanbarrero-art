@@ -18,10 +18,10 @@
 ---
 
 <p align="center">
-  ðŸš§ <strong>Perfil en construcciÃ³n</strong> Â· <strong>Profile under construction</strong> ðŸš§
+  🚧 <strong>Perfil en construcción</strong> · <strong>Profile under construction</strong> 🚧
 </p>
 
 <p align="center">
-  <em>Seguridad informÃ¡tica Â· aprendiendo a romper para defender.<br>
-  Cybersecurity Â· learning to break so I can defend.</em>
+  <em>Seguridad informática · aprendiendo a romper para defender.<br>
+  Cybersecurity · learning to break so I can defend.</em>
 </p>
