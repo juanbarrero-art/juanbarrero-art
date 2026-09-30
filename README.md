@@ -72,6 +72,23 @@
 
 ---
 
+<h2 align="center">Estad&#237;sticas &middot; Stats</h2>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=juanbarrero-art&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=3B82F6&text_color=c9d1d9" alt="Estadisticas de GitHub de juanbarrero-art" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juanbarrero-art&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=c9d1d9" alt="Lenguajes mas usados" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=juanbarrero-art&hide_border=true&background=0D1117&border=1E293B&stroke=8B5CF6&ring=3B82F6&fire=8B5CF6&currStreakNum=c9d1d9&currStreakLabel=8B5CF6&sideNums=c9d1d9&sideLabels=8B5CF6&dates=94a3b8" alt="Racha de contribuciones" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=juanbarrero-art&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trofeos de GitHub" />
+</p>
+
+---
+
 <p align="center">
   <a href="https://github.com/juanbarrero-art">
     <img src="https://img.shields.io/badge/GitHub-juanbarrero--art-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: juanbarrero-art" />
