@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/juanbarrero-art/juanbarrero-art/main/assets/banner.svg?v=2" alt="Banner estilo terminal hacker de Juan Barrero" width="100%" />
+  <img src="https://raw.githubusercontent.com/juanbarrero-art/juanbarrero-art/main/assets/banner.svg?v=3" alt="Banner con medusa ASCII de colores y terminal, de Juan Barrero" width="100%" />
 </div>
 
 <p align="center">
