@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/juanbarrero-art">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Cybersecurity+%7C+Ciberseguridad;Blue+Team+%26+Pentesting;Aprendiendo+a+romper+para+defender;Learning+to+break+so+I+can+defend" alt="Texto animado: Cybersecurity | Ciberseguridad" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Cybersecurity+%7C+Ciberseguridad;Blue+Team+%26+Pentesting;Aprendiendo+a+romper+para+defender;Learning+to+break+so+I+can+defend" alt="Texto animado: Cybersecurity y Ciberseguridad" />
   </a>
 </p>
 
@@ -18,10 +18,10 @@
 ---
 
 <p align="center">
-  🚧 <strong>Perfil en construcción</strong> · <strong>Profile under construction</strong> 🚧
+  &#x1F6A7; <strong>Perfil en construcci&#243;n</strong> &middot; <strong>Profile under construction</strong> &#x1F6A7;
 </p>
 
 <p align="center">
-  <em>Seguridad informática · aprendiendo a romper para defender.<br>
-  Cybersecurity · learning to break so I can defend.</em>
+  <em>Seguridad inform&#225;tica &middot; aprendiendo a romper para defender.<br>
+  Cybersecurity &middot; learning to break so I can defend.</em>
 </p>
